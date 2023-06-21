@@ -2,4 +2,5 @@ dvc
 dvc_gdrive
 dvc_s3
 pandas
-yaml
+pyyaml
+scikit-learn

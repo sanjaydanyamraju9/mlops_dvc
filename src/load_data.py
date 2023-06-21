@@ -7,6 +7,7 @@ def load_and_save(config_path):
     config = read_params(config_path)
     df = get_data(config_path)
     columns = [col.replace(" ","_") for col in df.columns]
+    df.columns = columns
     print(columns)
     raw_data_path = config['load_data']['raw_dataset_csv']
     df.to_csv(raw_data_path, sep=',', index=False, header = columns)
