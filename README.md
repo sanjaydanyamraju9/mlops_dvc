@@ -38,3 +38,5 @@ git add .
 ```bash
 git commit -m "First commit"
 ```
+
+git remote add origin https://github.com/sanjaydanyamraju9/mlops_dvc.git
