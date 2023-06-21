@@ -15,8 +15,8 @@ def split_data(config_path):
     random_state = config['base']['random_state']
     # target_col = config['base']['target_col']
     train,test= train_test_split( raw_df, test_size=test_size,random_state=random_state)
-    train.to_csv(train_path)
-    test.to_csv(test_path)
+    train.to_csv(train_path, sep=',', index=False)
+    test.to_csv(test_path, sep=',', index=False)
 
 
 if __name__=="__main__":
