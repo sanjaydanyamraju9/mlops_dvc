@@ -4,3 +4,6 @@ dvc_s3
 pandas
 pyyaml
 scikit-learn
+pytest
+tox
+numpy
