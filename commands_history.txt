@@ -1,0 +1,16 @@
+   99  pytest -v
+  100  pytest -v
+  101  pytest -v
+  102  tox 
+  103  tox 
+  104  tox -r
+  105  touch setup.py
+  106  pip install -e .
+  107  pip freeze
+  108  cd ..
+  109  python
+  110  cd MLOPS_DVC
+  111  ls
+  112  ls
+  113  python setup.py sdist bdist_wheel
+  114  tox
