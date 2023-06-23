@@ -9,3 +9,4 @@ pytest
 tox
 numpy
 flake8
+flask
