@@ -16,3 +16,9 @@ class CustomException(Exception):
 
     def __str__(self) -> str:
         return self.error_message
+    
+
+class NotInRangeException(Exception):
+    def __init__(self, message="values not in range"):
+        self.message = message
+        super().__init__(self.message)
