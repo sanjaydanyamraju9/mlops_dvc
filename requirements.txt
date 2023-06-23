@@ -8,3 +8,4 @@ scikit-learn
 pytest
 tox
 numpy
+flake8
